@@ -4,7 +4,7 @@
  # technologie utilisée
  Front end:
  
- -Angular 9
+ -Angular 9 \n/n
  
  -SCSS + Bootstrap
  
