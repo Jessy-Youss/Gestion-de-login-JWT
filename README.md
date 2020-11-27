@@ -3,12 +3,17 @@
  
  # technologie utilisée
  Front end:
+ 
  -Angular 9
+ 
  -SCSS + Bootstrap
+ 
  -Axios
  
  Back end:
+ 
  -Node.js
+ 
  -MySQL
 
 ## Development server
