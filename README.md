@@ -1,5 +1,5 @@
 # Gestion de login avec JWT (JSON WEB TOKEN)
- Gestion de login sécurisée avec JWT (JSON WEB TOKEN), codé en Node.js & MySQL (Back end) + Angular 9 & SCSS - Bootstrap (Front end) + Axios (Client HTTP)
+ Gestion de login sécurisée avec JWT (JSON WEB TOKEN), codé en Node.js & MySQL (Back end) + Angular 9 & SCSS (Front end) + Axios (Client HTTP)
 
 ## Technologie utilisées
 Front end:
