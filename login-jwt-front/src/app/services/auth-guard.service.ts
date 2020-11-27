@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Router,RouterStateSnapshot,ActivatedRouteSnapshot } from '@angular/router';
+import { Router, RouterStateSnapshot, ActivatedRouteSnapshot } from '@angular/router';
 
 
 @Injectable({
   providedIn: 'root'
 })
-export class UserIsNotLogin {
+export class UserIsNotLoggedIn {
   constructor(private router: Router) {
   }
   canActivate() {
@@ -22,7 +22,7 @@ export class UserIsNotLogin {
 @Injectable({
   providedIn: 'root'
 })
-export class UserIsLogin {
+export class UserIsLoggedIn {
   constructor(private router: Router) {
   }
   canActivate() {

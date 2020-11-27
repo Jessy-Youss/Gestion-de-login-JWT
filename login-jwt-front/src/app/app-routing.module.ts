@@ -3,8 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { DataUserComponent } from './components/data-user/data-user.component';
-import {UserIsNotLogin} from './services/auth-security.service'
-import {UserIsLogin} from './services/auth-security.service'
+import {UserIsNotLoggedIn} from './services/auth-guard.service'
+import {UserIsLoggedIn} from './services/auth-guard.service'
 
 
 
@@ -15,9 +15,9 @@ const routes: Routes = [
   redirectTo:'login',
   pathMatch: 'full'
   },
-  {path:'login',component: LoginComponent,canActivate: [UserIsNotLogin] },
-  {path:'home',component: HomeComponent,canActivate: [UserIsLogin]},
-  {path:'dataUser',component: DataUserComponent , canActivate: [UserIsLogin]},
+  {path:'login',component: LoginComponent,canActivate: [UserIsNotLoggedIn] },
+  {path:'home',component: HomeComponent,canActivate: [UserIsLoggedIn]},
+  {path:'dataUser',component: DataUserComponent , canActivate: [UserIsLoggedIn]},
 ];
 
 @NgModule({
