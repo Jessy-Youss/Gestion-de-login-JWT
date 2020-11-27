@@ -1,7 +1,7 @@
 # Gestion de login avec JWT
  Gestion de login sécurisée avec JWT (JSON WEB TOKEN)
  
- # Technologie utilisées
+ ## Technologie utilisées
  Front end:
  
  -Angular 9
